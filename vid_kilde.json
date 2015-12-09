@@ -1,5 +1,5 @@
 [{
-        "video": "C-wZT9LEB8w"
+        "video": "AQPhaIrAel8"
     },
 
     {
@@ -7,7 +7,7 @@
     },
 
     {
-        "intro_text": "Du skal lære om kildeanalyse. Videoen stopper undervejs og stiller dig spørgsmål."
+        "intro_text": "Du skal lære om kildeanalyse.<br/>Videoen stopper undervejs og stiller dig spørgsmål."
     },
 
     {
@@ -83,7 +83,7 @@
                 "feedback": "Den historiske baggrund giver dig mere viden om, hvad der skete, da kilden blev til."
             }]
         }, {
-            "timestamp": 619,
+            "timestamp": 620,
             "events": [{
                 "eventtype": "svarknap",
                 "tekst": "Hvordan kan kildens form afsløre kildens tendens?",
@@ -96,7 +96,7 @@
                 "feedback": "Kilden kan have et positivt eller kritisk syn på de begivenheder eller personer der beskrives."
             }]
         }, {
-            "timestamp": 734,
+            "timestamp": 735,
             "events": [{
                 "eventtype": "svarknap",
                 "tekst": "Hvad er målet med kildekritikken?",
@@ -108,6 +108,22 @@
                 ],
                 "feedback": "I en historieopgave - eller til en mundtlig eksamen i historie - skal du vise, at du kan inddrage kilderne til at fortælle om dit tema."
             }]
-        }]
+        }, {
+            "timestamp": 759,
+            "events": [{
+                "eventtype": "info",
+                "tekst": "Videoquizzen er slut. <br/>Forhåbentlig har du lært hvad kildeanalyse går ud på.",
+                "svar": [
+                    "", 
+                    ""
+                ],
+                "korrekt": [
+                    "0"
+                ],
+                "feedback": ""
+            }]
+        }
+]
     }
 ]
+

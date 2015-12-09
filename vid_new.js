@@ -194,6 +194,7 @@ function setupplayer() {
             'controls': 0,
             'showinfo': 0,
             'modestbranding': 1,
+            'rel': 0,
             'autoplay': false,
             wmode: 'transparent',
             allowFullScreen: false
@@ -355,9 +356,9 @@ function stop_event(tal, taeller) {
         }
     }
     if (spm.eventtype == "info") {
-        $(".popud").html("<h5 class='score'>Stop nummer " + (runde + 1) + "/" + stops.length + "   (Information)</h5><div class='container_tekst'><div class='h4 spm_tekst'>" + tekst + "</h4><div class ='svarcontainer'>" + options_text + "</div></div></div><div class='btn btn-default btn-lg btn_videre'>Fortsæt</div>");
+        $(".popud").html("<h5 class='score'>Stop nummer " + (runde + 1) + "/" + stops.length + "   (Information)</h5><div class='container_tekst'><div class='h4 spm_tekst'>" + tekst + "</h4><div class ='svarcontainer'>" + options_text + "</div></div></div><div class='btn btn-default btn-lg btn_videre'>Afslut</div>");
     } else {
-        $(".popud").html("<h5 class='score'>Stop nummer " + (runde + 1) + "/" + stops.length + "&nbsp&nbsp&nbsp&nbsp&nbspKorrekte svar: <span class='score_num'>" + total_score + "</span></h5><div class='container_tekst'><div class='h4 spm_tekst'>" + tekst + "</h4><div class ='svarcontainer'>" + options_text + "</div></div></div><div class='btn btn-default btn-lg btn_videre'>Fortsæt</div>");
+        $(".popud").html("<h5 class='score'>Stop nummer " + (runde + 1) + "/" + stops.length + "&nbsp&nbsp&nbsp&nbsp&nbspKorrekte svar: <span class='score_num'>" + total_score + "</span></h5><div class='container_tekst'><div class='h4 spm_tekst'>" + tekst + "</h4><div class ='svarcontainer'>" + options_text + "</div></div></div><div class='btn btn-default btn-lg btn_videre'>Svar</div>");
 
     }
     $(".btn_videre").hide();
@@ -537,7 +538,7 @@ function next_event() {
 function slutFeedback() {
     //console.log("slut");
     $("#overlay").unbind();
-    $(".popud").html("<h3 class = 'forfra'>Du har besvaret alle spørgsmålene. <br>Du svarede rigtigt på " + total_score + " ud af " + total_spm + " spørgsmål.</h3><div class='btn btn-default btn-lg forfra_knap'>Prøv igen</div><div class='btn btn-default btn-lg continue_film'>Se resten af filmen</div>");
+    $(".popud").html("<h3 class = 'forfra'>Du har besvaret alle spørgsmålene. <br>Du svarede rigtigt på " + total_score + " ud af " + total_spm + " spørgsmål.</h3><div class='btn btn-default btn-lg forfra_knap'>Prøv igen</div>");
     $(".forfra_knap").click(function() {
         //console.log ("ost");
         location.reload();

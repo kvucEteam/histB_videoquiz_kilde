@@ -39,7 +39,7 @@
 }
 
 #overlay {
-    background-color: rgba(0, 113, 128, .9);
+    background-color: rgba(0, 113, 128, .95);
     position: relative;
     z-index: 75;
     color: white;
@@ -54,6 +54,12 @@
     background-color: transparent;
     color:white;
 }
+
+.btn-default:hover {
+     
+    color:#006573;
+}
+
 
 .popud {
     left: 0;
