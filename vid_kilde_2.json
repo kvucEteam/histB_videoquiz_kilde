@@ -1,0 +1,60 @@
+[{
+        "video": "w7Qslgqq3cc"
+    },
+
+    {
+        "intro_header": "Kildeanalyse"
+    },
+
+    {
+        "intro_text": "Du skal lære om kildeanalyse.<br/>Videoen stopper undervejs og stiller dig spørgsmål."
+    },
+
+    {
+        "intro_knap": "START"
+    },
+
+    {
+        "stops": [{
+            "timestamp": 40,
+            "events": [{
+                "eventtype": "svarknap",
+                "tekst": "Er du klar til at lære om kildeanalyse?",
+                "svar": [
+                    "Ja"
+                ],
+                "korrekt": [
+                    "0"
+                ],
+                "feedback": "Det var heldigt. Klik på knappen herunder for at fortsætte."
+            }]
+        }, {
+            "timestamp": 151,
+            "events": [{
+                "eventtype": "svarknap",
+                "tekst": "Hvad kalder vi historiefagets vigtigste arbejdsmetode?",
+                "svar": ["Diskursanalyse", "Kildekritik eller kildeanalyse", "Kronologisk analyse"],
+                "korrekt": [
+                    "1"
+                ],
+                "feedback": "Når du går i gang med at analysere en kilde, er der nogle grundlæggende spørgsmål, som du altid skal stille."
+            }]
+        }, {
+            "timestamp": 308,
+            "events": [{
+                "eventtype": "svarknap",
+                "tekst": "Hvad kalder vi det, der forbinder dig med fortiden?",
+                "svar": [
+                    "Vidnesbyrd",
+                    "Brikker",
+                    "Spor eller kilder"
+
+                ],
+                "korrekt": [
+                    "2"
+                ],
+                "feedback": "Historikere bruger kilder til at underbygge deres beskrivelser af fortiden."
+            }]
+        }]
+    }
+]
