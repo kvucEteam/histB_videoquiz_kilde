@@ -3,7 +3,11 @@
     },
 
     {
+<<<<<<< HEAD
         "intro_header": "Kildeanalyse"
+=======
+        "intro_header": "Introduktion til kildeanalyse (Del 1/2)"
+>>>>>>> bec6a2cbd6364e774d4b70acd945b48347f3c472
     },
 
     {
@@ -55,6 +59,23 @@
                 ],
                 "feedback": "Historikere bruger kilder til at underbygge deres beskrivelser af fortiden."
             }]
+<<<<<<< HEAD
+=======
+        }, {
+            "timestamp": 375,
+            "events": [{
+                "eventtype": "info",
+                "tekst": "1 del af videoquizzen er slut. <br/>Der er yderligere en quiz om kildeanalyse som du kan tage.",
+                "svar": [
+                    "", 
+                    ""
+                ],
+                "korrekt": [
+                    "0"
+                ],
+                "feedback": ""
+            }]
+>>>>>>> bec6a2cbd6364e774d4b70acd945b48347f3c472
         }]
     }
 ]
